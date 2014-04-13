@@ -1,4 +1,5 @@
 wpn-nano-control
 ================
 
-minimal web control panel for WPN-XM
+very ligth nano web control panel for [WPN-XM] (https://github.com/WPN-XM/WPN-XM)
+

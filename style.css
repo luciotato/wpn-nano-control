@@ -1,0 +1,86 @@
+/* 
+    Document   : style
+    Created on : 13/04/2014, 10:00:01
+    Author     : ltato
+*/
+
+body{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", Candara, Tahoma, sans-serif;
+}
+
+.daemon {
+  opacity: inherit;
+  position:relative;
+  float:left;
+  min-width:124px;
+  min-height:44px;
+  border: 1px solid #536376;
+  padding: 4px;
+  margin: 4px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 8px;
+  -moz-box-shadow:  rgba(0,0,0,.6) 0px 2px 8px;
+}
+
+.daemon-name{
+  float:left;
+  font-weight: 900;  
+  margin-right: 10px;
+}
+
+.indicator{
+    position:absolute;
+    right:7px;
+    top: 7px;
+    border: 1px solid #536376;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.stopped{
+  background: red; 
+}
+
+.running{
+  background: lightgreen; 
+}
+
+.control{
+  clear:both;
+  font-size: 11pt;
+  font-weight: 400;
+  position:absolute;
+  bottom: 4;
+  right: 4;
+}
+
+a {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left:2px;
+  text-decoration: none;
+  color: black;
+}
+
+.start {
+  color:green!important;
+}
+
+.stop {
+  color:red!important;
+}
+
+.disabled {
+  pointer-events:none;
+  color: gray!important;
+}
+
+.refresh {
+  float:left;
+  clear:both;
+  padding: 6px;
+  decoration: none;
+}
